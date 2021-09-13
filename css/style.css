@@ -1,3 +1,4 @@
+/* body start here */
 body {
   overflow-x: hidden;
   font-family: "Montserrat", sans-serif;
@@ -35,7 +36,6 @@ body {
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* border: 1px solid black; */
   text-align: center;
   width: 100%;
   margin: auto;
@@ -49,7 +49,6 @@ body {
 .single-product:hover {
   box-shadow: 0px -2px 8px grey;
   border-radius: 10px;
-  /* border: 1.5px solid #6c5ce7; */
 }
 .product-image {
   width: 150px;
@@ -69,7 +68,6 @@ body {
 }
 
 .review{
-  font-size: 25px;
   color: #FF9529;
 }
 @media only screen and (max-width: 768px) {
